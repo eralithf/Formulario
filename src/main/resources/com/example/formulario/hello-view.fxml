@@ -31,11 +31,6 @@
         <TextField layoutX="119.0" layoutY="257.0" prefHeight="25.0" prefWidth="372.0" promptText="### ### ####" />
         <TextField alignment="TOP_LEFT" layoutX="118.0" layoutY="345.0" prefHeight="67.0" prefWidth="372.0" />
         <Button layoutX="220.0" layoutY="434.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" style="-fx-background-color: #3c3c3c;" text="Enviar Formulário de Contato" textFill="WHITE" />
-      <MenuButton layoutX="119.0" layoutY="304.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="372.0" text="Consulta">
-        <items>
-          <MenuItem mnemonicParsing="false" text="Action 1" />
-          <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
-      </MenuButton>
+      <ComboBox layoutX="119.0" layoutY="304.0" prefHeight="25.0" prefWidth="372.0" promptText="Consulta" />
     </children>
 </Pane>

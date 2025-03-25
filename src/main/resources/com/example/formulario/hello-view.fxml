@@ -13,7 +13,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <TextField layoutX="119.0" layoutY="182.0" prefHeight="25.0" prefWidth="169.0" text="Nome" />
+        <TextField layoutX="119.0" layoutY="182.0" prefHeight="25.0" prefWidth="169.0" promptText="Nome" />
         <Label layoutX="27.0" layoutY="14.0" prefHeight="35.0" prefWidth="266.0" text="Formulário de Contato">
             <font>
                 <Font size="24.0" />
@@ -27,10 +27,10 @@
         <Label layoutX="37.0" layoutY="308.0" text="Assunto*" />
         <Label layoutX="37.0" layoutY="345.0" text="Mensagem*" />
         <TextField layoutX="119.0" layoutY="223.0" prefHeight="25.0" prefWidth="372.0" />
-        <TextField layoutX="307.0" layoutY="182.0" prefHeight="25.0" prefWidth="187.0" text="Último" />
-        <TextField layoutX="119.0" layoutY="257.0" prefHeight="25.0" prefWidth="372.0" text="### ### ###" />
+        <TextField layoutX="307.0" layoutY="182.0" prefHeight="25.0" prefWidth="187.0" promptText="Último" />
+        <TextField layoutX="119.0" layoutY="257.0" prefHeight="25.0" prefWidth="372.0" promptText="### ### ####" />
         <TextField alignment="TOP_LEFT" layoutX="118.0" layoutY="345.0" prefHeight="67.0" prefWidth="372.0" />
-        <Button layoutX="220.0" layoutY="434.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" text="Enviar Formulário de Contato" textFill="#141212" />
+        <Button layoutX="220.0" layoutY="434.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="178.0" style="-fx-background-color: #3c3c3c;" text="Enviar Formulário de Contato" textFill="WHITE" />
       <MenuButton layoutX="119.0" layoutY="304.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="372.0" text="Consulta">
         <items>
           <MenuItem mnemonicParsing="false" text="Action 1" />
